@@ -8,6 +8,10 @@
 098262edf85f807224e70ecd87b9d83716bf6b73
 ```
 
+## 关联仓库
+
+- [GCG 论文学习与文献汇报](https://github.com/EYE-666/GCG-paper-study-notes)：包含论文链接、文献汇报 PPT 和 GCG 学习总结。
+
 ## 实验范围
 
 - 模型：Vicuna-7B-v1.3
