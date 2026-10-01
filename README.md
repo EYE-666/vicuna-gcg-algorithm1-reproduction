@@ -45,6 +45,8 @@ Loss 0.0279
 ```text
 .
 ├── README.md
+├── docs/
+│   └── learning-notes.md
 ├── environment.txt
 ├── run_command.sh
 ├── SHA256SUMS.txt
@@ -54,6 +56,7 @@ Loss 0.0279
 ```
 
 - `environment.txt`：Git 提交、Python/依赖版本及 GPU 信息。
+- `docs/learning-notes.md`：依赖、模型下载、显存、Demo 假阳性及成功判据等实验学习记录。
 - `run_command.sh`：本次实验使用的正式运行命令。
 - JSON：实验参数、检查点、Loss、自动评估指标和最佳后缀。
 - LOG：从模型加载到 500 步结束的完整控制台输出。
@@ -74,6 +77,8 @@ bash /path/to/this-repository/run_command.sh
 ```
 
 完整环境信息见 [`environment.txt`](environment.txt)。
+
+实验过程中遇到的问题及学习总结见 [`docs/learning-notes.md`](docs/learning-notes.md)。
 
 ## 结果说明
 
