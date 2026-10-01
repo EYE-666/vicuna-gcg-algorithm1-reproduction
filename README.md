@@ -79,11 +79,3 @@ bash /path/to/this-repository/run_command.sh
 完整环境信息见 [`environment.txt`](environment.txt)。
 
 实验过程中遇到的问题及学习总结见 [`docs/learning-notes.md`](docs/learning-notes.md)。
-
-## 结果说明
-
-该实验的输出表明，对抗后缀能够使模型生成预设的肯定性目标前缀。日志中的测试生成长度较短，因此结果证明的是目标前缀优化和自动评估成功，不应表述为模型已经生成了完整的危险实现。
-
-## 研究用途
-
-本实验仅用于授权的学术研究、模型安全评估与复现验证。请勿将对抗后缀或相关技术用于攻击未经授权的系统。
